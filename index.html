@@ -60,7 +60,9 @@
 							</video>
 						</body>
 								<h3>Low Level Programming</h3>
-                                <p>This was a project for my university module, where the main objective was to optimize a ray tracer. For that I worked with overloading new and delete, walking the heap, multi-threading and memory pools.</p>
+								<style> #more {display:  none;}</style>
+                                <p>This was a project for my university module, where the main objective was to optimize a ray tracer. For that I worked with overloading new and delete, walking the heap, multi-threading and memory pools. By overloading the operatos I was able to track how much memory was being allocted and how much memory is left, this helped me keep track to check if there was any new itialization that was not being deleted.<span id="dots">...</span><span id= "more">For the multi-thread I decided to separete the threads by call of the creation of new spheres so at run-time it was checking if there was a thread that could be used for the creation and if there is, the program would try to use it, to keep it thread safe mutex is being used to control the traffic of data.The memory pool is working based on pre-allocating chunks of memory, it is really usefull when creating multiple objects that I know how many that are going to exist, for example 100 spheres, I can pre-allocate that memory so I can keep track of it, and re-use the same adress in case the memory is deleted.</span></p>
+								<button onClick="myFunction()" id="myBtn">Read more</button>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<body>
