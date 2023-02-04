@@ -39,7 +39,7 @@
                     </h2>
                     </header>
                     <p>
-                       Languages: C++, C#, html
+                       Languages: C++, C#
                     </p>
                     <p>
                         Engines: Unreal engine, Unity
@@ -58,34 +58,35 @@
 								<video widht="320" height="240" controls>
 								<source src = "images/LowLevel.mp4">
 							</video>
-						</body>
 								<h3>Low Level Programming</h3>
 								<style> #more {display:  none;}</style>
-                                <p>This was a project for my university module, where the main objective was to optimize a ray tracer. For that I worked with overloading new and delete, walking the heap, multi-threading and memory pools. By overloading the operatos I was able to track how much memory was being allocted and how much memory is left, this helped me keep track to check if there was any new itialization that was not being deleted.<span id="dots">...</span><span id= "more">For the multi-thread I decided to separete the threads by call of the creation of new spheres so at run-time it was checking if there was a thread that could be used for the creation and if there is, the program would try to use it, to keep it thread safe mutex is being used to control the traffic of data.The memory pool is working based on pre-allocating chunks of memory, it is really usefull when creating multiple objects that I know how many that are going to exist, for example 100 spheres, I can pre-allocate that memory so I can keep track of it, and re-use the same adress in case the memory is deleted.</span></p>
-								<button onClick="myFunction()" id="myBtn">Read more</button>
+                                <p>This was a project for my university module, where the main objective was to optimize a ray tracer. For that I worked with overloading new and delete, walking the heap, multi-threading and memory pools. By overloading the operatos I was able to track how much memory was being allocted and how much memory is left, this helped me keep track to check if there was any new itialization that was not being deleted.For the multi-thread I decided to separete the threads by call of the creation of new spheres so at run-time it was checking if there was a thread that could be used for the creation and if there is, the program would try to use it, to keep it thread safe mutex is being used to control the traffic of data.The memory pool is working based on pre-allocating chunks of memory, it is really usefull when creating multiple objects that I know how many that are going to exist, for example 100 spheres, I can pre-allocate that memory so I can keep track of it, and re-use the same adress in case the memory is deleted.</p>
 							</article>
+							</body>
 							<article class="col-6 col-12-xsmall work-item">
 								<body>
 									<video widht="320" height="240" controls>
 									<source src = "images/TGP.mkv">
 							</video>
-							</body>
-								<h3>TGP - University Group Work</h3>
-								<p>This was a group project for my university, where in a group we should use and engine to build a game. I was in charge of programming all the audio aspects of the game. For that we used Unreal engine 4 and C++.</p>
+								<h3>Doomn't - University Group Work</h3>
+								<p>This was a group project for my university, where it simulates a workspace,as group we should use and engine to build a game. I was in charge of programming all the audio aspects of the game. For that we used Unreal engine 4 and C++. I used this system to get a better understanding of how audio system in engines as this is my area of interest.</p>
 							</article>
+								</body>
+							<body>
 							<article class="col-6 col-12-xsmall work-item">								
 								<video widht="320" height="240" controls>
 									<source src = "images/DuckBox.mkv">	
 								</video>
 								<h3>Audio engine - Studio Sim (Work in Progress)</h3>
-								<p>This is a university project where it simulates a studio. Here me and my team had to build an game engine. I was in charge of building the audio system and also helped with lighting and gameplay. I used FMOD, C++ and OpenGL.</p>
+								<style> #more {display:  none;}</style>
+								<p>This project simulates a studio. Here me and my team had to build an game engine. I was in charge of building the audio system. I used FMOD, C++ and OpenGL.<span id="a">...</span><span id= "b"> With the engine that was build, developers can change position of sound in a 3D space, pitch and volume. The engine is also build with a detection of which surround sound the player is using. There is also the use of DSP to create fade out effects for the sound, that was build calculating the sample and the sample per seconds of the audio. There is also a creation of multiple channels and checks to see if the channels is being used so memory is not wasted. Also the developer is able to set group of channels for a better control of the audio in the game. The video is a small demostration of the audio working in 3D space.</span></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">							
 								<video widht="320" height="240" controls>
 									<source src = "images/Path.mkv">
 								</video>
 								<h3>AI - Behaviours </h3>
-								<p>For this university project I had to work on steering behaviors for my A.I, I used physcis calculation using forces. Made on DirectX and C++. </p>
+								<p>For this project I had to work on steering behaviors for my A.I, I used physcis calculation using forces. Made on DirectX and C++. Also, a pathfinding was programmed to find the better route in the map to collect the passager, the calculation of the pathfinding works based on the cost of each node on the map. It gets the passager position and check which route is going to cost less movements. The other behaviours like Fleeing, Persuit, Wandering, arrivied,object avoindence are all build using the calculation of forces and vectors.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">					
 								<video widht="320" height="240" controls>
@@ -93,7 +94,7 @@
 						
 								</video>
 								<h3>CNA - Chat System</h3>
-								<p>For this project I had to build a chat system. With a server and client system where multiples chats can be created and a connection can be made. This project was build on C#.</p>
+								<p>For this project I had to build a chat system. With a server and client system where multiples chats can be created and a connection can be made. This project was build on C# using .NET and XML. The chat system work creating a connection with the server where it controls all the messages being sent to the clients. The project also cointains private messages where the server looks for who is sending the message and who should receive it. It also contains games that can be played while other players chat.</p>
 							</article>
 						</div>
 					</section>

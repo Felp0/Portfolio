@@ -116,8 +116,29 @@
 				});
 
 			});
-
+	
 })(jQuery);
+
+function test()
+{
+	var dots = document.getElementById("a");
+	var moreText = document.getElementById("b");
+	var btnText = document.getElementById("But2");
+										
+	if(dots.style.display === "none")
+	{
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read More";
+		moreText.style.display = "none";
+	}
+	else{
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read More";
+		moreText.style.display = "inline";
+		}
+						
+}
+
 
 function ReadMore()
 	{
