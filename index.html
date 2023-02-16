@@ -37,7 +37,7 @@
 							<article class="col-6 col-12-xsmall work-item">	
 								<body>
 								<video src="images/Low.mp4" controls></video>
-								<h3>Low Level Programming</h3>
+								<h3>Ray Tracer optimization</h3>
 								<style> #more {display:  none;}</style>
                                 <p>This was a project for my university module, where the main objective was to optimize a ray tracer.
 								</body>
@@ -76,10 +76,18 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<body>
+                                    <article class="col-6 col-12-xsmall work-item">								
+								
+									<video src = "images/sound.mp4" controls>	
+								</video>
+								<h3>Audio engine - Studio Sim </h3>
+								<p>This project simulates a studio. Here me and my team had to build an game engine. I was in charge of building the audio engine. I used FMOD, C++ and OpenGL. With the engine that was build, developers can change position of sound in a 3D space, pitch and volume. I also implemented channel control, group channels and a master channel, with which developers can easily manipulate aspects of the audio. The engine is also built with a detection of which surround sound the player is using. There is also the use of DSP to create fade out effects for the sound, it was built calculating the sample and the sample per seconds of the audio. There is also a check to see if the channels are being used, so memory is not wasted. Helper functions were created to help developers when using the engine, for example a set volume function.The video is a small demostration of the audio working with our game.</span></p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">							
 								
 								<video src = "images/Low.mp4" controls>
 							</video>
-								<h3>Low Level Programming</h3>
+								<h3>Ray Tracer optimization</h3>
 								<style> #more {display:  none;}</style>
                                 <p>This was a project for my university module, where the main objective was to optimize a ray tracer.For this I worked with overloading new and delete, walking the heap, multi-threading and memory pools. By overloading the operatos I was able to track how much memory was being allocted and how much memory is left, this helped me be abe to keep track to check if there was any new itialization that was not being deleted. For the multi-thread I decided to separete the threads by call of the creation of new spheres so at run-time it was checking if there was a thread that could be used for the creation and if there was. The program would try to use it, to keep it thread safe mutex is being used to control the traffic of data.The memory pool works based on pre-allocating chunks of memory, it is really useful when creating multiple objects when I know how many are going to exist, for example with 100 spheres, I can pre-allocate that memory so I can keep track of it, and re-use the same adress in case the memory is deleted.</p>
 							</article>
@@ -94,14 +102,7 @@
 							</article>
 								</body>
 							<body>
-							<article class="col-6 col-12-xsmall work-item">								
-								
-									<video src = "images/sound.mp4" controls>	
-								</video>
-								<h3>Audio engine - Studio Sim </h3>
-								<p>This project simulates a studio. Here me and my team had to build an game engine. I was in charge of building the audio engine. I used FMOD, C++ and OpenGL. With the engine that was build, developers can change position of sound in a 3D space, pitch and volume. I also implemented channel control, group channels and a master channel, with which developers can easily manipulate aspects of the audio. The engine is also built with a detection of which surround sound the player is using. There is also the use of DSP to create fade out effects for the sound, it was built calculating the sample and the sample per seconds of the audio. There is also a check to see if the channels are being used, so memory is not wasted. Helper functions were created to help developers when using the engine, for example a set volume function.The video is a small demostration of the audio working with our game.</span></p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">							
+
 								
 									<video src = "images/Path.mkv" controls>
 								</video>
